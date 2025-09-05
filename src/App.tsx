@@ -1,13 +1,10 @@
-import { Dashboard } from './components/Dashboard'
-import { FeatureFlagsProvider } from './context/FeatureFlagsContext'
+import React from 'react'
 
 function App() {
   return (
-    <FeatureFlagsProvider>
-      <div className="bg-zinc-50 font-sans text-zinc-900 antialiased">
-        <Dashboard />
-      </div>
-    </FeatureFlagsProvider>
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <p>Start prompting (or editing) to see magic happen :)</p>
+    </div>
   )
 }
 
